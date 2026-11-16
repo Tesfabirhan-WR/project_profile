@@ -4,44 +4,109 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#17324D">
-    <meta name="description" content="A portfolio of data, research, and software projects.">
-    <title>Project Portfolio</title>
+    <meta name="description" content="Tesfabirhan Redie, aspiring Data Engineer. Explore data engineering projects, skills, and CV.">
+    <title>Tesfabirhan Redie | Data Engineer</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="./projects.js" defer></script>
     <script src="./script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Project Portfolio home">
-        <span class="brand-mark" aria-hidden="true">P</span>
-        <span>Project Portfolio</span>
+      <a class="brand" href="#top" aria-label="Tesfabirhan Redie home">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>Tesfabirhan Redie</span>
       </a>
       <nav aria-label="Main navigation">
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="page-title">
-        <p class="eyebrow"><span aria-hidden="true"></span> Selected work</p>
-        <h1 id="page-title">Projects shaped by <span>curiosity.</span></h1>
-        <p class="hero-copy">
-          A collection of work across data exploration, research, engineering, and cloud.
-          Each overview is drawn from the project’s own README.
-        </p>
-        <a class="hero-link" href="#projects">Explore the catalog <span aria-hidden="true">↓</span></a>
+        <div class="profile-intro">
+          <p class="eyebrow"><span aria-hidden="true"></span> Data Engineer · Big Data &amp; AI</p>
+          <h1 id="page-title">Hi, I’m <span>Tesfabirhan Redie.</span></h1>
+          <p class="hero-copy">
+            Aspiring Data Engineer building practical ETL pipelines and cloud data solutions.
+            Currently studying Big Data and Artificial Intelligence, and seeking a five-month
+            internship starting November 2026.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:tesfabirhanw@yahoo.com">Email me</a>
+            <a class="button button-secondary" href="./images/cv_Tesfabirhan_REDIE.pdf" target="_blank" rel="noopener noreferrer">View my CV</a>
+            <a class="button button-secondary" href="https://github.com/Tesfabirhan-WR" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+          </div>
+          <div class="profile-badges">
+            <span>Microsoft Certified: Azure Fundamentals (AZ-900)</span>
+            <span>Open to a 5-month internship</span>
+          </div>
+        </div>
+        <figure class="profile-portrait">
+          <img src="./images/profile_photo.jpeg" alt="Portrait of Tesfabirhan Redie">
+        </figure>
         <div class="hero-note" aria-hidden="true">
           <span class="note-line"></span>
-          <span>Ideas, data, and things built along the way.</span>
+          <span>From raw data to useful insight.</span>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Core capabilities</p>
+            <h2 id="skills-title">Data engineering toolkit.</h2>
+          </div>
+          <p class="project-count">Skills highlighted from my CV</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <p class="skill-index">01 / Pipelines</p>
+            <h3>Build and transform</h3>
+            <ul>
+              <li>Python and SQL</li>
+              <li>PySpark</li>
+              <li>ETL / ELT</li>
+              <li>Apache Airflow and dbt</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <p class="skill-index">02 / Cloud</p>
+            <h3>Work with data platforms</h3>
+            <ul>
+              <li>Microsoft Azure</li>
+              <li>Azure Data Lake Storage Gen2</li>
+              <li>Docker and Docker Compose</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <p class="skill-index">03 / Data stores</p>
+            <h3>Model and persist</h3>
+            <ul>
+              <li>PostgreSQL and MySQL</li>
+              <li>MongoDB</li>
+              <li>Data modeling</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <p class="skill-index">04 / Analytics</p>
+            <h3>Make data useful</h3>
+            <ul>
+              <li>Power BI and Tableau</li>
+              <li>Excel</li>
+              <li>Git and GitHub</li>
+            </ul>
+          </article>
         </div>
       </section>
 
       <section class="projects-section" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">The catalog</p>
-            <h2 id="projects-title">A little of everything.</h2>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">Projects in practice.</h2>
           </div>
           <p class="project-count" id="project-count" aria-live="polite"></p>
         </div>
@@ -52,17 +117,26 @@
       </section>
 
       <section class="about-section" id="about" aria-labelledby="about-title">
-        <p class="eyebrow">A note on this page</p>
-        <h2 id="about-title">A simple window into the work.</h2>
+        <p class="eyebrow">About me</p>
+        <h2 id="about-title">Curious about how data moves and creates value.</h2>
         <p>
-          This catalog is a small, static index of project folders. Summaries come from
-          their README files; repository links are shown only when a Git remote is known.
+          I’m a Data Engineering student at Simplon Auvergne-Rhône-Alpes with hands-on
+          experience across data pipelines, data modeling, and analytics projects. My
+          background also includes database modeling work at INRAE. I enjoy turning
+          complex data workflows into reliable, understandable solutions.
         </p>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Let’s build something useful with data.</h2>
+        <a class="contact-email" href="mailto:tesfabirhanw@yahoo.com">tesfabirhanw@yahoo.com</a>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Project Portfolio</span>
+      <span>Tesfabirhan Redie · Data Engineer</span>
+      <a href="mailto:tesfabirhanw@yahoo.com">Email</a>
       <a href="#top">Back to top ↑</a>
     </footer>
   </body>

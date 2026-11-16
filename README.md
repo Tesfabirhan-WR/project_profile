@@ -1,6 +1,8 @@
 # Project Profile Pipeline
 
-A lightweight, static portfolio page for browsing projects in the parent `/root/projects` directory. Project summaries are based on their README files, and GitHub links are shown only when a repository remote is configured.
+A lightweight, static Data Engineer profile and portfolio page for job search and presentation. It highlights skills from the CV, links to the CV and project work, and uses the supplied profile photo. Project summaries are based on README files, and GitHub links are shown only when a repository remote is configured.
+
+Contact: [tesfabirhanw@yahoo.com](mailto:tesfabirhanw@yahoo.com)
 
 ## Run locally
 
@@ -29,3 +31,7 @@ After editing the catalog, serve the site locally and check that all project car
 - `styles.css` — responsive layout and visual design
 - `projects.js` — static project catalog
 - `script.js` — catalog rendering
+- `images/profile_photo.jpeg` — profile photo
+- `images/cv_Tesfabirhan_REDIE.pdf` — downloadable CV
+
+The profile and skill highlights are based on the CV in `images/`. If replacing either asset, update its matching path in `index.html`.
