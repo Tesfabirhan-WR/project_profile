@@ -5,7 +5,7 @@
 - Do not add a package manager, component library, Docker, migrations, or seed data.
 
 ## Frontend
-- Folder: `/root/projects/project_profile_pipeline`
+- Folder: `/root/projects/project_portofolio_pipeline`
 - Run: `python3 -m http.server 8000` from this folder
 - Build: none; plain HTML, CSS, and JavaScript
 - Entry point and assets: `index.html`, `styles.css`, `projects.js`, `script.js`

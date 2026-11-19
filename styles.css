@@ -106,8 +106,8 @@ a:focus-visible {
     var(--primary);
 }
 
-.profile-intro,
-.profile-portrait {
+.portofolio-intro,
+.portofolio-portrait {
   position: relative;
   z-index: 1;
 }
@@ -208,14 +208,14 @@ a:focus-visible {
   color: #f3bb91;
 }
 
-.profile-badges {
+.portofolio-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1.5rem;
 }
 
-.profile-badges span {
+.portofolio-badges span {
   padding: 0.35rem 0.65rem;
   border: 1px solid rgb(255 255 255 / 18%);
   border-radius: 999px;
@@ -223,7 +223,7 @@ a:focus-visible {
   font-size: 0.72rem;
 }
 
-.profile-portrait {
+.portofolio-portrait {
   justify-self: end;
   width: min(100%, 340px);
   aspect-ratio: 4 / 5;
@@ -235,7 +235,7 @@ a:focus-visible {
   box-shadow: 0 24px 60px rgb(0 0 0 / 22%);
 }
 
-.profile-portrait img {
+.portofolio-portrait img {
   display: block;
   width: 100%;
   height: 100%;
@@ -521,7 +521,7 @@ a:focus-visible {
     font-size: clamp(2.8rem, 13vw, 4.2rem);
   }
 
-  .profile-portrait {
+  .portofolio-portrait {
     justify-self: start;
     width: min(74vw, 280px);
   }
